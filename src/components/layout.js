@@ -38,6 +38,7 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
+          <link href="https://fonts.googleapis.com/css?family=Niramit:400,600,700" rel="stylesheet">
         </div>
       </>
     )}
