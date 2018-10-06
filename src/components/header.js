@@ -4,15 +4,15 @@ import { Link } from 'gatsby'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'lightgrey',
+      background: '#fff',
       marginBottom: '1.45rem',
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '0.45rem 1.0875rem 1rem 1.0875rem',
+        borderBottom: '#e1e1e1 solid 1px',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -22,8 +22,7 @@ const Header = ({ siteTitle }) => (
             color: 'black',
             textDecoration: 'none',
           }}
-        >
-          {siteTitle}
+        >m
         </Link>
       </h1>
     </div>

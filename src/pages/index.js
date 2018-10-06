@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <p>Welcome to my website.</p>
-    <small>&copy; matt shade.</small>
+  <h3>Welcome.</h3>
+    <p>There is more to come... but for now this is all you get.</p>
   </Layout>
 )
 
