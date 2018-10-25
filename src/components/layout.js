@@ -20,6 +20,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      <Helmet>
+        <script>
+          window.location = "https://nbcuniversal.webex.com/meet/pr206080731";
+        </script>
+      </Helmet>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
