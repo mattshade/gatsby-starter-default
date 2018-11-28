@@ -1,14 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
+
+class IframePage extends React.Component{
 componentDidMount(){
   console.log("shady");
   console.log(window.parent.AMP);
 }
 
-const IframePage = () => (
+render(){
+  return(
   <Layout>
   <p>hallo</p>
     <script>
@@ -17,5 +19,9 @@ const IframePage = () => (
     </script>
   </Layout>
 )
+}
+
+
+}
 
 export default IframePage
