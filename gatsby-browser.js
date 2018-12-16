@@ -1,3 +1,5 @@
+
+
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
@@ -11,7 +13,7 @@ exports.onRouteUpdateDelayed = () => {
 
 exports.onRouteUpdate = ({ location }) => {
   //console.log('new pathname', location.pathname)
-  // particlesJS.load('particles-js','/particles.json'), function() {
+  // particlesJS.load('https://mattsha.de/js/particles-load.js','/particles.json'), function() {
   //   console.log('callback - particles.js config loaded')
   // }
 }

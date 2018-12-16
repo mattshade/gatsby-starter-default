@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { withPrefix } from 'gatsby'
+// import { withPrefix } from 'gatsby'
 
 import { StaticQuery, graphql } from 'gatsby'
 
@@ -53,8 +53,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <Helmet>
-        <script src={withPrefix('/particles.js')}></script>
-        <script src={withPrefix('/particles-load.js')}></script>
+        <script src='https://mattsha.de/js/particles.min.js'></script>
+        <script src='https://mattsha.de/js/particles-load.js'></script>
         </Helmet>
         <div
           style={{

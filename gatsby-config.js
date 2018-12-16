@@ -3,6 +3,13 @@ module.exports = {
     title: 'SHADE',
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `js`,
+        path: `src/js/`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
