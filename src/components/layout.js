@@ -2,11 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { withPrefix } from 'gatsby'
+
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
 import './layout.css'
+
+// import particle from './particles.js'
+// import particleLoad from './particles-load.js'
 
 
 const Layout = ({ children }) => (
