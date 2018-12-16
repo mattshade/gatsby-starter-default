@@ -7,6 +7,8 @@ html {
 }
 body {
   margin: 0;
+  color: white;
+  background: #20232d;
 }
 article,
 aside,
@@ -247,9 +249,9 @@ h2 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Niramit', sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 h3 {
@@ -263,9 +265,9 @@ h3 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Niramit', sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.6rem;
   line-height: 1.1;
 }
 h4 {
@@ -279,7 +281,7 @@ h4 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Niramit', sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -613,6 +615,19 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #20232d;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+.highlight{color:#84bd4d;}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

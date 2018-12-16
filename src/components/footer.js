@@ -8,6 +8,7 @@ const Footer = () => (
         position: 'absolute',
         bottom: '0px',
         left: '0px',
+        color: '#b3b3b3',
       }}
     >
     <small>&copy; matt shade</small>

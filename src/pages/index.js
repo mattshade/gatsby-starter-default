@@ -1,13 +1,15 @@
 import React from 'react'
 //import { Link } from 'gatsby'
+// import { withPrefix } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-  <h3>Welcome.</h3>
-    <p>There is more to come... but for now this is all you get.</p>
+  <h2>Hello, I'm <span className="highlight">Matt Shade</span>.</h2>
+  <h3>I'm a Tech Lead, Developer, &amp; Designer.</h3>
   </Layout>
+
 )
 
 export default IndexPage
