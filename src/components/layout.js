@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { withPrefix } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
@@ -48,8 +49,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <Helmet>
-        <script src='/particles.js'></script>
-        <script src='/particles-load.js'></script>
+        <script src={withPrefix('/particles.js')}></script>
+        <script src={withPrefix('/particles-load.js')}></script>
         </Helmet>
         <div
           style={{
