@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 const Footer = () => (
+
     <div
       style={{
         margin: '0 auto',
@@ -8,12 +10,12 @@ const Footer = () => (
         position: 'absolute',
         bottom: '0px',
         left: '0px',
-        color: '#b3b3b3',
+        color: '#20232d',
       }}
     >
+
     <small>&copy; matt shade</small>
     </div>
-
 )
 
 export default Footer
