@@ -622,7 +622,7 @@ pre tt:after {
   background-color: #20232d;
   background-image: url("../images/mountains.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
   z-index: -1;
 }
