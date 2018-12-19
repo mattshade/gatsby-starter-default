@@ -622,8 +622,8 @@ pre tt:after {
   background-color: #20232d;
   background-image: url("../images/mountains.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% bottom;
+  background-size: cover;
+  background-position: center bottom;
   z-index: -1;
 }
 .highlight{color:#84bd4d;}
