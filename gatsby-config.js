@@ -29,11 +29,11 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Enables Google Optimize using your container Id
-        optimizeId: "GTM-59XCM9N",
+        //optimizeId: "",
         // Any additional create only fields (optional)
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
+        cookieDomain: "mattshade.com",
       },
     },
     'gatsby-plugin-react-helmet',
