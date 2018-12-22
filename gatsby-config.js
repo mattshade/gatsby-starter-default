@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'SHADE',
+    menuLinks:[
+      {
+         name:'contact',
+         link:'/contact'
+      }
+    ],
   },
   plugins: [
     {
@@ -8,6 +14,26 @@ module.exports = {
       options: {
         name: `js`,
         path: `src/js/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-93477204-1",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Enables Google Optimize using your container Id
+        optimizeId: "GTM-59XCM9N",
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "example.com",
       },
     },
     'gatsby-plugin-react-helmet',

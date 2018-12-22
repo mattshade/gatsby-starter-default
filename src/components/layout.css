@@ -44,6 +44,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #90ba5c;
+  text-decoration:none;
 }
 a:active,
 a:hover {
@@ -131,6 +133,13 @@ select {
 button,
 html [type=button] {
   -webkit-appearance: button;
+  background:#14151b;
+  color: #b3b3b3;
+  border:none;
+  cursor:pointer;
+  opacity: .8;
+  padding: 8px;
+  font-size: 24px;
 }
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
@@ -138,12 +147,18 @@ html [type=button] {
 button::-moz-focus-inner {
   border-style: none;
   padding: 0;
+  background:#14151b;
+  transition: 0.3s;
+
 }
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
+}
+button:hover{
+  opacity: 1;
 }
 fieldset {
   border: 1px solid silver;
@@ -615,6 +630,16 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+input, textarea{
+    background: #14151b;
+    border: none;
+    color: rgb(179, 179, 179);
+    padding: 8px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 #particles-js {
   position: absolute;
   width: 100%;
@@ -626,10 +651,34 @@ pre tt:after {
   background-position: center bottom;
   z-index: -1;
 }
-.highlight{color:#84bd4d;}
+.highlight{color: #84bd4d;}
 
+button,textarea,input{
+  width: 500px;
+}
+.nav{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  color: #b3b3b3;
+}
+.fa-bars, .fa-times{
+  font-size: 24px;
+  cursor: pointer;
+}
+body .hide{
+  display: none;
+
+}
+.menuLinks{
+  transition: all 5s linear;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  button,textarea,input{
+    width:320px;
   }
 }

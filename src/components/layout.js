@@ -9,9 +9,6 @@ import Header from './header'
 import Footer from './footer'
 import './layout.css'
 
-// import particle from './particles.js'
-// import particleLoad from './particles-load.js'
-
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -20,10 +17,15 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            menuLinks {
+              name
+              link
+            }
           }
         }
       }
     `}
+
     render={data => (
       <>
         <Helmet
@@ -50,17 +52,20 @@ const Layout = ({ children }) => (
         >
         </div>
 
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
+
 
         <Helmet>
         <script src='https://mattsha.de/js/particles.min.js'></script>
         <script src='https://mattsha.de/js/particles-load.js'></script>
         </Helmet>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossOrigin="anonymous" />
         <div
           style={{
             margin: '0 auto',
             maxWidth: 'auto',
-            padding: '0px 1.0875rem 1.45rem',
+            padding: '1.2rem',
             paddingTop: 0,
             color: '#b3b3b3',
           }}
