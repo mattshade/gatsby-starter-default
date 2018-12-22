@@ -42,6 +42,7 @@ const Layout = ({ children }) => (
             { name: 'twitter:title', content:'Matt Shade' },
             { name: 'twitter:description', content:'Tech Lead, Developer, Designer' },
             { name: 'author', content:'Matt Shade' },
+            { name: 'google-site-verification', content:'gXnEf9oI5nnNpsZpX3O1qBFymj1VyCQKrdhZ-Y_ig3k' },
           ]}
         >
 
@@ -59,6 +60,8 @@ const Layout = ({ children }) => (
         <script src='https://mattsha.de/js/particles.min.js'></script>
         <script src='https://mattsha.de/js/particles-load.js'></script>
         </Helmet>
+
+
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossOrigin="anonymous" />
         <div
