@@ -8,7 +8,7 @@ class ContactPage extends React.Component{
 render(){
   return(
   <Layout>
-  <form name="contact" method="POST" action="/success" data-netlify="true">
+  <form name="contact" method="POST" action="https://www.mattshade.com/success" data-netlify="true">
   <p>
     <input placeholder="Your Name" type="text" name="name" />
   </p>
