@@ -19,8 +19,6 @@ render(){
   <p>
     <textarea placeholder="Add Your Message Here" name="message" rows="6"></textarea>
   </p>
-
-  <div data-netlify-recaptcha="true"></div>
     <button
     style={{
       display: 'block',
