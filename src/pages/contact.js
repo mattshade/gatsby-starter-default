@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import { Link } from "gatsby"
 
 
 class ContactPage extends React.Component{
@@ -9,7 +8,8 @@ class ContactPage extends React.Component{
 render(){
   return(
   <Layout>
-  <form name="contact" method="POST" data-netlify="true">
+  <form name="contact" method="POST" action="/success/" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <input placeholder="Your Name" type="text" name="name" />
   </p>
