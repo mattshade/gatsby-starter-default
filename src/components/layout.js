@@ -8,7 +8,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './footer'
 import './layout.css'
-import ogImage from '../images/mattshade-site.jpg'
+// import ogImage from '../images/mattshade-site.jpg'
+
+// const siteOgImage = `https://www.mattshade.com${ogImage}`
 
 
 const Layout = ({ children }) => (
@@ -39,7 +41,7 @@ const Layout = ({ children }) => (
             { property: 'og:site_name', content:'Matt Shade' },
             { property: 'og:title', content:'Matt Shade' },
             { property: 'og:description', content:'Tech Lead, Developer, Designer' },
-            { property: 'og:image', content:`https://www.mattshade.com${ogImage}` },
+            { property: 'og:image', content:'https://www.mattshade.com/static/mattshade-site-e97f75a5643b71dbc6691b6f25ac2850.jpg' },
             { name: 'twitter:creator', content:'@mattShade' },
             { name: 'twitter:title', content:'Matt Shade' },
             { name: 'twitter:description', content:'Tech Lead, Developer, Designer' },
