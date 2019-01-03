@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
             { property: 'og:site_name', content:'Matt Shade' },
             { property: 'og:title', content:'Matt Shade' },
             { property: 'og:description', content:'Tech Lead, Developer, Designer' },
-            { property: 'og:image', content:`${ogImage}` },
+            { property: 'og:image', content:`https://www.mattshade.com${ogImage}` },
             { name: 'twitter:creator', content:'@mattShade' },
             { name: 'twitter:title', content:'Matt Shade' },
             { name: 'twitter:description', content:'Tech Lead, Developer, Designer' },
