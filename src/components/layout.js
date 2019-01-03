@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-// import { withPrefix } from 'gatsby'
+
 
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
 import './layout.css'
+import ogImage from '../images/mattshade-site.jpg'
 
 
 const Layout = ({ children }) => (
@@ -38,6 +39,7 @@ const Layout = ({ children }) => (
             { property: 'og:site_name', content:'Matt Shade' },
             { property: 'og:title', content:'Matt Shade' },
             { property: 'og:description', content:'Tech Lead, Developer, Designer' },
+            { property: 'og:image', content:`${ogImage}` },
             { name: 'twitter:creator', content:'@mattShade' },
             { name: 'twitter:title', content:'Matt Shade' },
             { name: 'twitter:description', content:'Tech Lead, Developer, Designer' },
