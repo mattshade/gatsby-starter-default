@@ -10,6 +10,8 @@ import Footer from './footer'
 import './layout.css'
 import ogImage from '../images/mattshade-site.jpg'
 
+const siteOgImage = `https://www.mattshade.com${ogImage}`
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -39,8 +41,8 @@ const Layout = ({ children }) => (
             { property: 'og:site_name', content:'Matt Shade' },
             { property: 'og:title', content:'Matt Shade' },
             { property: 'og:description', content:'Tech Lead, Developer, Designer' },
-            { property: 'og:image', content:`${ogImage}` },
-            { property: 'og:image:secure_url', content:`${ogImage}` },            
+            { property: 'og:image', content:`${siteOgImage}` },
+            { property: 'og:image:secure_url', content:`${siteOgImage}` },
             { property: 'og:image:type', content:'image/jpeg' },
             { property: 'og:image:width', content:'1200' },
             { property: 'og:image:height', content:'630' },
