@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'Tech Lead, Developer, Designer' },
-            { name: 'keywords', content: 'matt shade tech design' },
+            { name: 'keywords', content: 'matt, shade, matt shade, tech, tech lead, design, designer, developer, coolguy' },
             { property: 'og:type', content: 'website' },
             { property: 'og:url', content:'https://www.mattshade.com' },
             { property: 'og:site_name', content:'Matt Shade' },
