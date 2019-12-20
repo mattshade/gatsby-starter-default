@@ -9,6 +9,8 @@ import Header from './header'
 import Footer from './footer'
 import './layout.css'
 import ogImage from '../images/mattshade-site.jpg'
+import particlesMin from '../js/particles.min.js'
+import particlesLoad from '../js/particles-load.js'
 
 const siteOgImage = `https://www.mattshade.com${ogImage}`
 
@@ -66,8 +68,9 @@ const Layout = ({ children }) => (
 
 
         <Helmet>
-        <script src='https://mattsha.de/js/particles.min.js'></script>
-        <script src='https://mattsha.de/js/particles-load.js'></script>
+        <script dangerouslySetInnerHTML={{ __html: {particlesMin} }} />
+        <script dangerouslySetInnerHTML={{ __html: {particlesLoad} }} />
+
         </Helmet>
 
 

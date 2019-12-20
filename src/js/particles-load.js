@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* ---- particles.js config ---- */
 setTimeout(function(){
 particlesJS("particles-js", {
@@ -110,4 +111,4 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-  }, 200);
+}, 1000);
