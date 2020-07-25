@@ -7,7 +7,7 @@ const Footer = () => (
       style={{
         margin: '0 auto',
         padding: '0.45rem 1.0875rem 1rem 1.0875rem',
-        position: 'absolute',
+        position: 'fixed',
         bottom: '0px',
         left: '0px',
         color: '#20232d',

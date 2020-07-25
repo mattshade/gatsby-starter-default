@@ -651,13 +651,24 @@ input, textarea{
   background-position: center bottom;
   z-index: -1;
 }
+#campy {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #20232d;
+  background-image: url("../images/campy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  z-index: -1;
+}
 .highlight{color: #84bd4d;}
 
 button,textarea,input{
   width: 500px;
 }
 .nav{
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   text-align: right;
