@@ -20,6 +20,9 @@ import deadGuy from '../images/deadGuy.jpg'
 import mtP1 from '../images/mtP1.jpg'
 import mtP2 from '../images/mtP2.jpg'
 import mtP3 from '../images/mtP3.jpg'
+import rollingHills from '../images/rollingHills.jpg'
+import aidanMaya from '../images/aidanMaya.jpg'
+import boats from '../images/boats.jpg'
 
 import LayoutNS from '../components/layoutNS'
 
@@ -33,7 +36,7 @@ const SecondPage = () => (
       marginTop: '80px',
     }} >
     <h1>The Shade's 2020 Covid RV Road Trip Vacation</h1>
-    <p>The Shade family likes to travel. Under normal circumstances we use birthdays as an excuse to explore somewhere new. It was very  near Aidan's birthday so we came up with a plan. Our next adventure was supposed to be held somewhere in the nordic countries, perhaps Switzerland, but with Covid-19 we had to think of something more safe. We wanted to avoid confined places and hotels so we thought road trip was the best option and decided to rent an RV!</p>
+    <p>The Shade family likes to travel. Under normal circumstances we use birthdays as an excuse to explore somewhere new. It was very  near Aidan's birthday so we came up with a plan. Our next adventure was supposed to be held somewhere in the nordic countries, or perhaps Switzerland, but with Covid-19 we had to think of something more safe. We wanted to avoid confined places and hotels so we thought road trip was the best option and decided to rent an RV!</p>
     <h3>Day 1</h3>
     <p>We made a reservation and headed down to <a href={'https://www.elmonterv.com'}>El Monte RV</a> to pick up this sweet ride:</p>
     <img src={`${RV1}`} alt='El  Monte'/>
@@ -49,6 +52,8 @@ const SecondPage = () => (
     <p>This was my first attempt at parking the RV and hooking up to the electric, water, and sewer. Water and sewer were no problem, and I thought what could be easier than plugging into the electric? Turns out the electric boxes have breaker switches on them which I did not see and  failed to turn our power on. It  was already dark at this point, and I had no idea why the power was not working, so we ended up running the camper for most of the night for the A/C. The cab of the camper is not powerful enough to supply a good flow of air to the whole camper so we sweated that one out.</p>
     <h3>Day 2</h3>
     <p>The next morning we started up the generator, blasted the A/C, and got back on the road to Ohio! We had some road food<sup>*</sup> for lunch and after a few hours we were dodging horse drawn buggies while cruising through the rolling hills of an Amish community, and reached our destination at the <a href={'http://timbercrestrvpark.com/'}>TimberCrest RV Park</a> in Millersburg, OH.</p>
+    <img src={rollingHills} alt={'Hills in Amish Ohio'}/>
+    <img src={aidanMaya} alt={'Aidan & Maya'}/>
     <p>It was pretty late in the afternoon, so we decided to go to the grocery and cooked up some hamburgers and hot dogs for dinner. Usually I try to make culinary experiences a main focus on our vacations, but because we were traveling mostly in the boonies I had to curb the gastronome in me, but I was able to supplement by exploring the local beers and wines.</p>
     <p>I don't go crazy for the citra hopped beers. I like a more refreshing beer without all of the tropical piney flavors, so I mainly stick to pilsners, lagers, and pale ales. The highlight for  this day was a double whammy. Platform Beer Company's New Cleveland Palesner, yum!</p>
     <img src={palesner} alt={'Platform Beer Company New Cleveland Palesner'}/>
@@ -71,8 +76,10 @@ const SecondPage = () => (
     <img src={aidanIs9} alt={'Aidan turns 9!'}/>
     <p>The beer highlight this evening was Dortmunder Lager made by the Great Lakes Brewing Company</p>
     <img src={dortmunder} alt={'Great Lakes Brewing Co. Dortmunder Lager'}/>
-    <h3>Day 5 and 6</h3>
-    <p>On day 5 we really just wanted to get out of our spot at the very redneck KOA campground and headed to <a href={'https://campchautauqua.com/'}>Camp Chautauqua</a>. We still don't know  how to pronounce it, but we all liked it so much we stayed for 2 days. There were many activities like fishing and boating, and we finally encountered our first pool!</p>
+    <h3>Days 5 and 6</h3>
+    <p>On day 5 we really just wanted to get out of our spot at the very redneck KOA campground and headed to <a href={'https://campchautauqua.com/'}>Camp Chautauqua</a>. We still don't know how to pronounce it, but we all liked it so much we stayed for 2 days.</p>
+    <img src={boats} alt={'boats'}/>
+    <p>There were many activities like fishing and boating, and we finally encountered our first pool!</p>
     <img src={thePool} alt={'In the pool'}/>
     <p>The camp sites here were really nice, and we were not smooshed against our neighbors. The   first night we ate pizza from <a href={'http://www.andriaccios.com/'}>Andriaccio's</a> and  grilled burgers and hotdogs over the fire the next night. I found another nice beer from the Great Lakes Brewing Company... Burning River Pale Ale:</p>
     <img src={greatLakes} alt={'Burning River Pale Ale'}/>
